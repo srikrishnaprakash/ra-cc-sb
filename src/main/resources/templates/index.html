@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<head th:replace="common/header :: head"></head>
+</head>
+<body>
+	<div th:replace="common/header :: top-navigation">...</div>
+
+	<div class="container">
+
+		<div class="page-header">
+			<h1>Welcome </h1> 
+		</div>
+		<p th:text="'Hello, ' + ${actionName} + '!'" />
+		<p class="lead">
+			ratomates is a ara (application release automation) organization. We automate using non-intrusive code and deploy in wide variety of servers and platforms
+		</p>
+		
+	</div>
+
+	<div th:replace="common/footer :: footer">...</div>
+    
+</body>
+</html>
