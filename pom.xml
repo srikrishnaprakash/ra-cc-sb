@@ -77,4 +77,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+    		<snapshotRepository>
+        		<id>dev</id>
+        		<name>Local repository</name>
+        		<url>file:///home/vibhu/repos/mvn-repo</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
