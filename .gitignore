@@ -30,3 +30,5 @@ target/
 .settings
 .project
 .classpath
+# Visual Studio Code
+*.code-workspace
