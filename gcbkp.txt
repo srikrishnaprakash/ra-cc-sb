@@ -1,0 +1,5 @@
+git remote set-url --push git@gitlab.com:lanamesu/raccsb-bkp.git
+git push --> Current branch
+To push another branch
+git branch <branch name>
+git push -u origin <src branch name>:<target branch name>
